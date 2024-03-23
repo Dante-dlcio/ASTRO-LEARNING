@@ -20,7 +20,7 @@ body: JSON.stringify({
     sort: {
       date_unix: "asc",
     },
-    limit: 12,
+    limit: 15,
   },
 }),
 });

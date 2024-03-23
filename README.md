@@ -1,18 +1,15 @@
-# Astro Starter Kit: Basics
+# Welcome to my first Project Using Astro
+## This project was designed throughout the Astro for Beginners course offered by Midudev.
 
-```sh
-npm create astro@latest -- --template basics
-```
+[![Aprende Astro 3 desde cero: Curso para principiantes + aplicacion con Astro](../ASTRO-LEARNING/src/utils/Astro%20Curso.jpg)](https://www.youtube.com/watch?v=RB5tR_nqUEw)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+# Technologies Used:
+##  <img src="../ASTRO-LEARNING/src/utils/icons/astro-svgrepo-com.svg" width="20" height="20">Astro  <img src="../ASTRO-LEARNING/src/utils/icons/light-pnpm-svgrepo-com.svg" width="20" height="20"> Pnpm  <img src="../ASTRO-LEARNING/src/utils/icons/tailwind-svgrepo-com.svg" width="20" height="20">  Tailwind <img src="../ASTRO-LEARNING/src/utils/icons/typescript-logo-svgrepo-com.svg" width="20" height="20"> Typescript <img src="../ASTRO-LEARNING/src/utils/icons/nodejs-icon-svgrepo-com.svg" width="20" height="20"> NodeJs
 
-## 🚀 Project Structure
+
+# Main Funcionalities
 
 Inside of your Astro project, you'll see the following folders and files:
 
