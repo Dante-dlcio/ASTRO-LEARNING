@@ -1,6 +1,6 @@
 ---
 
-import {getLatestLaunches, getLaunchBy} from "../../services/spacex"
+import {getOldestLaunches, getLaunchBy} from "../../services/spacex"
 import Layout from "../../layouts/Layout.astro";
 
 const {id} = Astro.params
@@ -11,7 +11,7 @@ if(id){
 }
 
  export  async function getStaticPaths() {
-    const launches = await getLatestLaunches()
+    const launches = await getOldestLaunches()
     return launches.map((launch)=>({
       params:  {id:launch.id}
     }));
