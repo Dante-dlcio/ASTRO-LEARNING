@@ -1,0 +1,51 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+interface Props {// typescript interface
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<ViewTransitions/>
+	</head>
+	<body class="bg-spaceXbg bg-no-repeat bg-cover bg-center min-h-screen pb-32 ">
+		<main class="max-w-5xl px-4 m-auto">
+			<slot />
+		</main>
+	</body>
+</html>
+<style is:global>
+    @media (max-width: 640px){
+        .bg-spaceXbg{
+            background-size: cover;
+            background-position: center;
+        }
+    }
+	html {
+		font-family: system-ui, sans-serif;
+		background: #13151a;
+		background-size: 224px;
+		color-scheme: dark light;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style>
