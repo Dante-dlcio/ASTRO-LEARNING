@@ -2,7 +2,15 @@
 import LandingLayout from "../layouts/LandingLayout.astro"
 ---
 <LandingLayout title="landingPage">
-<h1>
-    Estoy para que me veas
+    <div class="min-h-screen flex flex-col items-center justify-center">
+<h1 class=" y-15 text-center font-spacex text-3xl">
+    Welcome to:
 </h1>
-</LandingLayout>
+<h1 class="py-5 ttext-center font-spacex text-3xl">
+	SpaceX Launches
+</h1>
+    <a class="text-2xl font-bold px-6 py-3 leading-none text-gray-200 border border-gray-800 rounded-lg focus:outline-none focus:shadow-outline bg-gradient-to-b hover:from-indigo-500 from-gray-700 to-yellow"
+    href="/home">
+        Liftoff!
+    </a>
+</div>
